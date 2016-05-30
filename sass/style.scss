@@ -1,0 +1,33 @@
+/*#Laboratoria*/
+*{
+	font-size: Helvetica, Arial, sans-serif;
+	background-color: whitesmoke;
+	h1{
+		margin-bottom: 40px;
+	}
+}
+/*logo*/
+.logolab{
+	height: 100px
+}
+.icons{
+	.fa{
+		color:orange;
+		font-size:60px;
+		margin: 10px;
+	}
+}
+.uno, .dos {
+	padding: 20px;
+}
+
+
+/*COLUMNA NUESTRO EQUIPO*/
+/*imagenes equipo*/
+.img-circle{
+	height:120px;
+}
+.img-rounded{
+	height:110px;
+	width:110px;
+}
