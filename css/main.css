@@ -2,7 +2,14 @@ img {
   width: 100%; }
 
 #carousel-example-generic img {
-  height: 550px; }
+  height: 530px; }
+
+.carousel-inner .opacidad {
+  background-color: black;
+  opacity: 0.5;
+  height: 530px;
+  width: 100%;
+  position: absolute; }
 
 .nav {
   position: fixed; }
@@ -25,7 +32,7 @@ img {
       margin-bottom: 40px; }
       .nav a .fa:hover {
         background-color: black;
-        padding: 10px;
+        padding: 4px;
         color: white;
         width: 200px;
         border-radius: 10px; }
