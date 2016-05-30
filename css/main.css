@@ -1,3 +1,19 @@
+#fecha-lugar {
+  background-color: #5BA473; }
 
+.date-place {
+  padding: 50px;
+  padding-top: 20px; }
+  .date-place h1 {
+    color: white; }
+  .date-place h2 {
+    color: white;
+    font-size: 18px; }
+  .date-place strong {
+    color: white; }
+  .date-place .map-ifblanco {
+    padding: 50px;
+    height: 400px;
+    max-width: 100%; }
 
 /*# sourceMappingURL=main.css.map */
