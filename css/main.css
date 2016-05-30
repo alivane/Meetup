@@ -1,3 +1,33 @@
-
+.nav {
+  position: fixed; }
+  .nav a {
+    text-decoration: none; }
+    .nav a .fa-home {
+      color: black; }
+    .nav a .fa-calendar {
+      color: #C03810; }
+    .nav a .fa-user {
+      color: #C04182; }
+    .nav a .fa-clock-o {
+      color: #15A3C0; }
+    .nav a .fa-phone {
+      color: #2DC01B; }
+    .nav a .fa {
+      display: block;
+      font-size: 50px;
+      margin-top: 20px;
+      margin-bottom: 40px;
+      margin-left: 20px; }
+      .nav a .fa:hover {
+        background-color: black;
+        padding: 10px;
+        color: white;
+        width: 200px;
+        border-radius: 10px; }
+        .nav a .fa:hover h4 {
+          display: inline-block;
+          margin-left: 20px; }
+      .nav a .fa h4 {
+        display: none; }
 
 /*# sourceMappingURL=main.css.map */
