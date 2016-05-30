@@ -1,0 +1,11 @@
+@mixin bg($url){
+	background:$url;
+	background-size:cover;
+	background-position:top center;
+	background-repeat:no-repeat;
+}
+@mixin repisa(){
+	content:"";
+	display:block;
+	clear:both;
+}

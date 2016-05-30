@@ -1,0 +1,61 @@
+*{
+	font-family:"Open Sans";
+}
+ul.list-inline{
+	display:inline-block;
+	border-bottom:1px solid $white;
+	width:100%;
+	padding:20px 0px;
+	margin-bottom:0px;
+	&:nth-child(7){
+		border-bottom:none;
+	}
+	li{
+		vertical-align:top;
+		list-style:none;
+	}
+	li:first-child{
+		font-weight:bold;
+		text-transform:uppercase;
+	}
+	ul{
+		padding:0px 10px;
+		display:inline-block;
+	}
+}
+.floatLeft{
+	float:left;
+}
+#agenda{@include bg(url(../images/transparent-polygonal-sphere.jpg));
+		@include repisa();
+		padding:30px 0px;
+	.blockWhite{
+		margin:20px 0px;
+		padding:20px;
+		background:rgba(255,255,255,0.7);
+		box-sizing:border-box;
+		h1{	
+			font-family:"Open sans condensed";
+			color:darken($orange,10%);
+			font-weight:bold;
+			text-transform:uppercase;
+			margin:0px 0px 20px 0px;
+		}
+		div{
+			display:inline-block;
+		}
+		img{
+			float:left;
+			margin-right:10px;
+			padding:2px;
+			border-radius:90%;
+			width:80px;
+			height:80px;
+			border:1px solid $orange;
+		}
+		p{
+			display:inline-block;
+			width:80%;
+		}
+	}
+}
