@@ -1,3 +1,23 @@
 
 
 /*# sourceMappingURL=main.css.map */
+
+
+/*INICIO CSS FOOTER*/
+.masgr{
+	height: 15%;
+	width: 15%;
+	display: inline-block;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+.masch{
+	height: 5%;
+	width: 5%;
+}
+img{
+	height: 15%;
+	width: 15%;
+}
+
+/*FIN CSS FOOTER*/
