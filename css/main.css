@@ -1,9 +1,14 @@
 /*#Laboratoria*/
 * {
   font-size: Helvetica, Arial, sans-serif;
-  background-color: whitesmoke; }
+  line-height: 26px; }
   * h1 {
-    margin-bottom: 40px; }
+    margin-bottom: 40px;
+    line-height: 46px; }
+  * p {
+    font-size: 16px; }
+  * span {
+    color: orange; }
 
 /*logo*/
 .logolab {
@@ -17,13 +22,34 @@
 .uno, .dos {
   padding: 20px; }
 
+.uno p {
+  margin-top: 40px; }
+
 /*COLUMNA NUESTRO EQUIPO*/
 /*imagenes equipo*/
-.img-circle {
-  height: 120px; }
-
-.img-rounded {
+.dos .img-circle, .dos .img-rounded {
   height: 110px;
-  width: 110px; }
+  width: 110px;
+  border: 5px solid orange;
+  margin: 15px 0;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease; }
+.dos img:hover {
+  height: 130px;
+  width: 120px;
+  margin-left: -30px; }
+.dos a {
+  text-decoration: none;
+  color: black; }
+
+/*boton*/
+.btn-group {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: orange; }
+
+.labor {
+  color: white; }
 
 /*# sourceMappingURL=main.css.map */
