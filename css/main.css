@@ -1,77 +1,7 @@
-<<<<<<< HEAD
-img {
-  width: 100%; }
-
-.principal {
-  background-image: url(../image/laboratoria.png); }
-
-.fondo {
-  background-size: cover; }
-
-.fondo-fixed {
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center center; }
-
-.modulo-alto {
-  padding: 1em;
-  min-height: 100vh;
-  text-align: center; }
-
-#carousel-example-generic {
-  background-color: #FB8665; }
-  #carousel-example-generic .carousel-inner {
-    text-align: center; }
-    #carousel-example-generic .carousel-inner img {
-      display: inline-block;
-      width: 10%;
-      padding: 5px;
-      background-color: white;
-      margin: 30px 10px;
-      border-radius: 100%; }
-
-.carousel-caption h1 {
-  margin-top: -100px;
-  font-family: 'Courgette', cursive;
-  font-size: 60px; }
-.carousel-caption h2 {
-  font-family: 'Rubik', sans-serif;
-  font-size: 50px;
-  color: #55C0AB;
-  margin-top: 50px; }
-
-.nav {
-  position: fixed; }
-  .nav a {
-    text-decoration: none; }
-    .nav a .fa-home {
-      color: black; }
-    .nav a .fa-calendar {
-      color: #C03810; }
-    .nav a .fa-user {
-      color: #C04182; }
-    .nav a .fa-clock-o {
-      color: #15A3C0; }
-    .nav a .fa-phone {
-      color: #2DC01B; }
-    .nav a .fa {
-      display: block;
-      font-size: 50px;
-      margin-top: 20px;
-      margin-bottom: 40px; }
-      .nav a .fa:hover {
-        background-color: black;
-        padding: 4px;
-        color: white;
-        width: 170px;
-        border-radius: 10px; }
-        .nav a .fa:hover h4 {
-          display: inline-block;
-          margin-left: 20px; }
-      .nav a .fa h4 {
-        display: none; }
-=======
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Open+Sans:400,700);
+body {
+  background: #161A1D; }
+
 * {
   font-family: "Open Sans"; }
 
@@ -161,6 +91,110 @@ ul.list-inline {
     #agenda .blockWhite p {
       display: inline-block;
       width: 80%; }
->>>>>>> a1e9b216d74df084f7391986f573176b2402b9c4
+
+img {
+  width: 100%; }
+
+.principal {
+  background-image: url(../image/laboratoria.png); }
+
+.fondo {
+  background-size: cover; }
+
+.fondo-fixed {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.modulo-alto {
+  min-height: 70vh;
+  text-align: center; }
+
+#carousel-example-generic {
+  background-color: #FB8665; }
+  #carousel-example-generic .carousel-inner {
+    text-align: center; }
+    #carousel-example-generic .carousel-inner img {
+      display: inline-block;
+      width: 10%;
+      padding: 5px;
+      background-color: white;
+      margin: 30px 10px;
+      border-radius: 100%; }
+
+.opacida {
+  content: "";
+  display: block;
+  clear: both;
+  background: rgba(0, 0, 0, 0.5);
+  color: #FFFFFF;
+  padding: 50px;
+  height: 70vh; }
+  .opacida div p {
+    font-family: "Open sans condensed";
+    font-size: 50px;
+    margin-top: 20px;
+    vertical-align: baseline;
+    font-weight: bold; }
+  .opacida div img {
+    margin-left: 10px;
+    vertical-align: baseline; }
+  .opacida > img {
+    background: rgba(255, 255, 255, 0.8); }
+
+.nav {
+  content: "";
+  display: block;
+  clear: both;
+  background: #F9A91A;
+  position: fixed;
+  width: 17%;
+  padding-left: 10px;
+  height: 70vh; }
+  .nav button {
+    padding: 10px;
+    background: #F9A91A;
+    border: none;
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 0px #161A1D;
+    position: absolute;
+    bottom: -70px;
+    border-radius: 5px;
+    font-weight: bold; }
+  .nav a {
+    color: #452d02;
+    text-decoration: none; }
+    .nav a h4 {
+      text-transform: uppercase;
+      font-family: "Open sans condensed";
+      display: inline-block;
+      visibility: visible;
+      font-weight: bold;
+      color: #774d03;
+      margin-left: 10px; }
+    .nav a .fa {
+      display: block;
+      font-size: 30px;
+      margin-top: 20px;
+      margin-bottom: 40px;
+      color: #774d03; }
+      e
+      .nav a .fa:hover {
+        color: black;
+        background-color: black;
+        padding: 4px;
+        color: white;
+        width: 170px;
+        border-radius: 10px; }
+        e
+        .nav a .fa:hover h4 {
+          color: #FFFFFF;
+          display: inline-block;
+          margin-left: 20px; }
+
+#carousel-example-generic {
+  background: #F9A91A; }
 
 /*# sourceMappingURL=main.css.map */
