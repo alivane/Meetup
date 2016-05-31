@@ -1,18 +1,60 @@
 img{
 	width:100%;
 }
+.hola{
+	width:100%;
+	nav{
+		margin:20px auto;
+		width:90%;
+		max-width:100px; 
+		ul{
+			list-style:none;
+		}
+	}
+}
 #carousel-example-generic{
 	img{
 		height:530px;
 	}
+	.fotos{
+		height:300px;
+		margin-top:100px;
+		margin-bottom: 130px;
+		border:2px solid black;
+		width:100%;
+	}
 }
 .carousel-inner{
+	.fondo-fixed{
+	  background-attachment: fixed;
+	  background-repeat: no-repeat;
+	  background-position: center center;
+	}
+	.modulo-alto {
+  padding: 1em;
+  min-height: 100vh;
+  text-align: center;
+}
 	.opacidad{
 		background-color:black;
 		opacity:0.5;
 		height:530px;
 		width:100%;
 		position:absolute;
+	}
+}
+.carousel-caption{
+	h1{
+		margin-top:-100px;
+		font-family: 'Courgette', cursive;
+		font-size: 60px;
+
+	}
+	h2{
+		font-family: 'Rubik', sans-serif;
+		font-size: 50px;
+		color:#55C0AB;
+		margin-top:50px;
 	}
 }
 .nav{
@@ -43,7 +85,7 @@ img{
 				background-color: black;
 				padding: 4px;
 				color:white;
-				width: 200px;
+				width: 170px;
 				border-radius:10px;
 				h4{
 					display:inline-block;
