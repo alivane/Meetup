@@ -1,15 +1,16 @@
-<<<<<<< HEAD
 body{
 	background:$black;
 }
-=======
 /*#Laboratoria*/
 #laboratoria{
-	font-size: Helvetica, Arial, sans-serif;
+	background:rgba(255,255,255,1);
+	font-size: "Open sans";
 	line-height:26px;
 		h1{
-		margin-bottom: 40px;
-		line-height:46px;
+			font-family:"Open sans condensed";
+			font-weight:bold;
+			margin-bottom: 40px;
+			line-height:46px;
 		}
 		p {
 		font-size:16px;
@@ -23,7 +24,7 @@ body{
 }
 /*logo*/
 .logolab{
-	height: 100px
+	height: 100px;
 }
 .uno, .dos {
 	padding: 20px;
@@ -63,6 +64,8 @@ body{
 }
 /*boton*/
 .btn-group{
+	border-radius:5px;
+	box-shadow:0px 4px 0px $black;
 	margin-top:50px;
 	padding:20px;
 	background-color: $orange;
@@ -72,5 +75,3 @@ body{
 .labor{
 	color: white;
 }
- 
->>>>>>> 75348577193d985ee68dd452ced620d629c40128
