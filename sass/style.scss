@@ -75,3 +75,56 @@ body{
 .labor{
 	color: white;
 }
+/*SECTION FECHA-LUAR*/
+#fecha-lugar {
+	background-image: url(../image/tecn.jpg);
+	background-size: cover;
+	background-attachment:fixed;
+	height:70vh;
+}
+.opacity {@include repisa();
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.6);
+	position: absolute;
+}
+.date-place {
+	.text {
+		color:$white;
+		padding-left:30px;
+		padding-top: 30px;
+		h1 {
+			font-family:"Open sans condensed";
+			font-weight:bold;
+			text-transform:uppercase;
+			color:$white;
+			padding-left:30px;
+		}
+		h2 {
+			color:$white;
+			font-size: 25px;
+		}
+		strong {
+			color:$white;
+			font-size: 16px;
+		}
+		i {
+			color:$white;
+			&:hover {
+				font-size: 60px;
+			}
+		}
+		.fabrica {
+			max-width: 100%;
+			height: 200px;
+			margin-left: -20px;
+			text-align: center;
+		}
+	}
+	.map-ifblanco {
+		padding-top: 60px;
+		max-width: 100%;
+		margin-bottom:10px;
+	}
+}
+/*END SECTION*/
