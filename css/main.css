@@ -1,12 +1,21 @@
 img {
   width: 100%; }
 
-.principal .opacidad {
-  background-color: black;
-  opacity: 0.5;
-  width: 97%;
-  position: absolute;
-  height: 531px; }
+.principal {
+  background-image: url(../image/laboratoria.png); }
+
+.fondo {
+  background-size: cover; }
+
+.fondo-fixed {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.modulo-alto {
+  padding: 1em;
+  min-height: 100vh;
+  text-align: center; }
 
 #carousel-example-generic {
   background-color: #FB8665; }
@@ -15,7 +24,7 @@ img {
     #carousel-example-generic .carousel-inner img {
       display: inline-block;
       width: 10%;
-      padding: 10px;
+      padding: 5px;
       background-color: white;
       margin: 30px 10px;
       border-radius: 100%; }
