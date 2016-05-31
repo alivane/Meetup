@@ -67,12 +67,19 @@ img{
 		border:none;
 		width:150px;
 		margin:10px;
+		color:$white;
 		text-align:center;
 		box-shadow:0px 4px 0px $black;
 		position:absolute;
 		bottom:-70px;
 		border-radius:5px;
 		font-weight:bold;
+		&.boton2{
+			bottom:-150px;
+			a{
+				color:$white;
+			}
+		}
 	}
 	a{
 		color:darken($orange,40%);
