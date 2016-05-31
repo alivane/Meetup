@@ -1,23 +1,30 @@
-
-
-/*# sourceMappingURL=main.css.map */
-
-
 /*INICIO CSS FOOTER*/
-.masgr{
-	height: 15%;
-	width: 15%;
-	display: inline-block;
-	margin-right: 10%;
-	margin-left: 10%;
-}
-.masch{
-	height: 5%;
-	width: 5%;
-}
-img{
-	height: 15%;
-	width: 15%;
-}
+footer .bajofooter {
+  background-color: orange;
+  color: white;
+  padding: 10px 0px;
+  text-align: center; }
+  footer .bajofooter .cuatro {
+    height: 30px;
+    width: 2%;
+    border-radius: 50%;
+    float: rigth; }
+
+.masgr {
+  height: 20%;
+  width: 20%;
+  display: inline-block;
+  margin-right: 10%;
+  margin-left: 10%; }
+
+.masch {
+  height: 8%;
+  width: 8%; }
+
+img {
+  height: 15%;
+  width: 15%; }
 
 /*FIN CSS FOOTER*/
+
+/*# sourceMappingURL=main.css.map */
