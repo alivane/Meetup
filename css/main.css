@@ -28,6 +28,7 @@ ul.list-inline {
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   content: "";
   display: block;
   clear: both;
@@ -307,5 +308,20 @@ body {
   margin-bottom: 10px; }
 
 /*END SECTION*/
+#form-contacto {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 95vh;
+  color: #F9A91A; }
+  #form-contacto > div {
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    background: white; }
+  #form-contacto h1 {
+    font-family: "Open sans condensed";
+    text-transform: uppercase;
+    font-weight: bold; }
 
 /*# sourceMappingURL=main.css.map */

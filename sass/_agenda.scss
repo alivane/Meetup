@@ -27,6 +27,7 @@ ul.list-inline{
 	float:left;
 }
 #agenda{@include bg(url(../images/transparent-polygonal-sphere.jpg));
+		background-attachment:fixed;
 		@include repisa();
 		padding:30px 0px;
 	.blockWhite{
